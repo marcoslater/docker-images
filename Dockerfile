@@ -1,6 +1,7 @@
-FROM store/oracle/serverjre:8
+FROM java:8-jdk-alpine
 
-RUN yum install git -y
+RUN apk update
+RUN apk add git
 
 ADD https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar /build/BuildTools.jar
 
