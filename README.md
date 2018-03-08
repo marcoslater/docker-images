@@ -1,2 +1,1 @@
-# docker-images
-Docker Images.
+Docker images primarily for minor testing.
