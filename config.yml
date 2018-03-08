@@ -10,7 +10,7 @@ permissions:
   - bungeecord.command.reload
 timeout: 30000
 log_commands: false
-online_mode: false
+online_mode: true
 disabled_commands:
 - disabledcommandhere
 servers:
