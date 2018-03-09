@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM java:8-jdk-alpine as Builder
 
 RUN apk update
 RUN apk add git
